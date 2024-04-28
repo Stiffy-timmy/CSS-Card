@@ -1,1 +1,1 @@
-# A practice project to make a card using css and html
+# A practice project to make a card using CSS and Html.
