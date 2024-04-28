@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:rgb(24, 22, 22) ;
+        }
+
+        .ancestor{
+            height:100vh ;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items:center ;
+        }
+        .parent{
+            height: 600px;
+            width: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #eeeff0;
+        }
+
+        .outer{
+            height: 550px;
+            width: 300px;
+            margin-top: 10px;
+            border-radius: 10px;
+            background-color:white;
+            outline: 0.2px #bed3e7 solid;
+        }
+
+        .inner-img{
+            position: relative;
+            top: 10px;
+            left: 10px;
+            height: 230px;
+            width: 280px;
+            background-image: url(https://static.toiimg.com/photo/msid-91838086,width-96,height-65.cms);
+            background-size: cover;
+            border-radius: 10px;
+        }
+        
+        .text{
+            margin: 25px 10px 10px 10px ;
+        }
+
+        .main{
+            position: relative;
+            left: 15px;
+            height: 35%;
+            width: 280px;
+        }
+        
+        .end{
+            position: relative;
+            height: 40px;
+            width: 100px;
+            left: 35%;
+            top: 5px;
+            bottom: 5px;
+            background-color: #d9eff3;
+            color: rgb(42, 185, 252);
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 20px;
+        }
+
+        .hover:hover{
+            text-decoration: underline rgb(42, 185, 252);
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="ancestor">
+        <div class="parent">
+            <div class="outer">
+                <div class="inner-img"></div>
+                <div class="text">
+                    <span class="text hover">Nature</span>
+                    <span class="text hover">Lake</span>
+                </div>
+                <div class="main">
+                    <h2>Lago di Braires</h2>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae doloremque ab quidem quibusdam iste sed provident ullam natus optio mollitia temporibus, dolores ad numquam, vitae amet hic. Non, consequatur porro.
+                    
+                    </div>
+                    <div class="end">
+                        <span><b>Read more</b></span>
+                    </div>
+            </div>
+    </div>
+</div>
+        
+</body>
+</html>
